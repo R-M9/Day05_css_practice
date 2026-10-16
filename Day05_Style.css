@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(204, 225, 243);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+.box{
+    width: 400px;
+    min-height: 400px;  /* min-height so content never overflows */
+    background-color:white;
+    border-radius: 15px; 
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(71, 18, 215);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.userbox,
+.passbox{
+display:block;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+
+input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    font-size: 20px; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: block;
+}
+
+.button{
+    width:100%;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(71, 18, 215);
+    color: white; 
+    font-size: 15px;
+    cursor: pointer; 
+}
